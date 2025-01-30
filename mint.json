@@ -37,7 +37,7 @@
       "group": "Administration Server",
       "pages": [
         "introduction",
-        "Dashboard",
+        "admin-server/dashboard",
         "Connections",
         "User Management",
         "Solutions & Licenses",
