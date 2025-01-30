@@ -7,12 +7,12 @@
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#1A58B7",
+    "light": "#33BDD8",
+    "dark": "#33BDD8",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#33BDD8",
+      "to": "#33BDD8"
     }
   },
   "topbarLinks": [
@@ -31,48 +31,52 @@
       "url": "api-reference"
     }
   ],
-  "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
-    }
-  ],
+
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Administration Server",
       "pages": [
         "introduction",
-        "quickstart",
-        "development"
+        "Dashboard",
+        "Connections",
+        "User Management",
+        "Solutions & Licenses",
+        "Billing",
+        "Settings",
+        "Global Configurations"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Energy Consultant Solution",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        {
+          "group": "Company Level",
+          "pages": [
+            "Dashboard",
+            "Projects Management",
+            "Contacts Management",
+            "Profile Management"
+          ]
+        },
+        {
+          "group": "Project Level",
+          "pages": [
+            "Project level",
+            "Actions Management",
+            "Documents Management",
+            "Assessments",
+            "Funding",
+            "Time and expenses",
+            "Milestones",
+            "Invoices",
+            "Configuration"
+          ]
+        }
       ]
     },
     {
       "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
+      "pages": ["api-reference/introduction"]
     },
     {
       "group": "Endpoint Examples",
